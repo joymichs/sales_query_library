@@ -1,8 +1,8 @@
-## Sales Analysis Library
+## Sales Query Library
 
 a retail store analysis library for sales
 
-### Queries
+### Analysis
 ...
 
 ### Forcasts
