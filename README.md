@@ -1,6 +1,6 @@
 ## Sales Query Library
 
-a retail store analysis library for sales
+a retail store sales query library
 
 ### Analysis
 ...
