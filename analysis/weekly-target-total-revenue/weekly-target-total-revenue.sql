@@ -1,4 +1,4 @@
-WITH weekly_target AS (
+WITH weekly_target_in_dollars AS (
     select 1000 as val
 ),
 dollar_to_cedis_rate AS (
@@ -12,5 +12,5 @@ FROM sales AS s
     LEFT JOIN sales_item AS si
         ON s.id = si.sale_id
 GROUP BY week_number
-    HAVING SUM(total_sell_price) > ((SELECT * from dollar_to_cedis_rate ) * (SELECT * from weekly_target))
+    HAVING SUM(total_sell_price) > ((SELECT * from dollar_to_cedis_rate ) * (SELECT * from weekly_target_in_dollars))
 ORDER BY week_number
