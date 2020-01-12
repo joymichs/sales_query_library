@@ -21,10 +21,10 @@ a retail store sales query library
 
 #### analysis
 
-Every analysis has:
+Every analysis has a:
 
-- a SQL query
-- a Technical Implementation Documentation
+- SQL query
+- Technical Implementation Documentation
 
 #### forcasts
 
