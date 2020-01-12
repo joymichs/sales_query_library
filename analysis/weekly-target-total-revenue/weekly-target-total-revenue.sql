@@ -11,6 +11,7 @@ SELECT extract(week from sale_date) AS week_number,
 FROM sales AS s
     LEFT JOIN sales_item AS si
         ON s.id = si.sale_id
+WHERE extract(year from sale_date) = 2019
 GROUP BY week_number
     HAVING SUM(total_sell_price) > ((SELECT * from dollar_to_cedis_rate ) * (SELECT * from weekly_target_in_dollars))
 ORDER BY week_number

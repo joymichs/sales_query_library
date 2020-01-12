@@ -17,7 +17,11 @@ expected_value AS (SELECT SUM(si.total_sell_price)
 	WHERE extract(year from s.sale_date) = 2019
 	AND extract(month from s.sale_date) = (select * from test_month)
 ),
-actual_value AS (SELECT (SUM(total_sell_price)/12) FROM sales_item AS actual_value
+actual_value AS (SELECT (SUM(total_sell_price)/12) 
+	FROM sales AS s
+	LEFT JOIN sales_item AS si
+		ON s.id = si.sale_id
+	WHERE extract(year from s.sale_date) = 2019
 )
 
 select concat( 

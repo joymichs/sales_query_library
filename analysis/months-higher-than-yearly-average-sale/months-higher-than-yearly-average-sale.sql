@@ -4,6 +4,11 @@ SELECT extract(month from sale_date) AS month_number,
 FROM sales AS s
     LEFT JOIN sales_item AS si
         ON s.id = si.sale_id
+WHERE extract(year from sale_date) = 2019
 GROUP BY month_number
-    HAVING SUM(total_sell_price) > (SELECT SUM(total_sell_price)/12 FROM sales_item)
+    HAVING SUM(total_sell_price) > (SELECT (SUM(total_sell_price)/12) 
+		FROM sales AS s
+		LEFT JOIN sales_item AS si
+			ON s.id = si.sale_id
+		WHERE extract(year from s.sale_date) = 2019)
 ORDER BY month_number

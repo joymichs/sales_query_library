@@ -8,4 +8,4 @@
 
 ### **Acceptance Criteria**
 
-- The query result should be ordered by the week so that it shows how sales revenue increases or decreases over time
+- The query result should be ordered by the week so that it shows how sales revenue increases or decreases over time in 2019
