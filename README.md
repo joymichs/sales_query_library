@@ -28,9 +28,9 @@ Every analysis has a:
 
 #### forcasts
 
-**Note**: The forcast contains the SQL query used in data preparation for forcasting.
-**Tool used for forcast**: [Tableau](https://public.tableau.com/en-us/s/)
-**Link to Forcast**: The link to the sales forcast can be found at [SalesForcast](https://public.tableau.com/profile/joy.nwachukwu#!/vizhome/SalesForcast_15788398089730/SalesForcastfortheLastQuarteroftheYear2019)
+- **Note**: The forcast contains the SQL query used in data preparation for forcasting.
+- **Tool used for forcast**: [Tableau](https://public.tableau.com/en-us/s/)
+- **Link to Forcast**: The link to the sales forcast can be found at [SalesForcast](https://public.tableau.com/profile/joy.nwachukwu#!/vizhome/SalesForcast_15788398089730/SalesForcastfortheLastQuarteroftheYear2019)
 
 #### tests
 
