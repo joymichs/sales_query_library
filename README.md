@@ -28,7 +28,7 @@ Every analysis has a:
 
 #### Forcasts
 
-- **Note**: The forcast folder contains the SQL query used in data preparation for forcasting using the same datasource.
+- **Note**: The forcast folder contains the SQL query used in data preparation for forcasting using the data source in the data folder.
 - **Tool used for forcast**: [Tableau](https://public.tableau.com/en-us/s/)
 - **Link to Forcast**: The link to the sales forcast can be found at [SalesForcast](https://public.tableau.com/profile/joy.nwachukwu#!/vizhome/SalesForcast_15788398089730/SalesForcastfortheLastQuarteroftheYear2019)
 
