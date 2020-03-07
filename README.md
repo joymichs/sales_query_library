@@ -12,7 +12,7 @@ a retail store sales query library
 │           ├── **.sql
 │   ├── data
 │       ├── test_export.sql
-│   ├── forcasts
+│   ├── forecasts
 │       ├── **.sql
 │   ├── tests
 │       ├── **.sql
